@@ -1,0 +1,18 @@
+﻿# Environment and secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Test artifacts
+test_intent.json
+test_launch.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

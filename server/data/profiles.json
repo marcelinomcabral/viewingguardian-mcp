@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "mia": {
+      "child_id": "mia",
+      "name": "Mia",
+      "age": 7,
+      "sensitivities": {
+        "jump_scares": "high",
+        "peril": "high",
+        "violence": "medium",
+        "emotional_intensity": "medium"
+      },
+      "household_rules": {
+        "family_friendly_language": "strict",
+        "no_jump_scares_after": "19:00"
+      }
+    }
+  }
+}
