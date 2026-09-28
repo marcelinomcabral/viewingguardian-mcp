@@ -21,7 +21,8 @@ AI Guardian and Language Layer for Fire TV, built as a self-hosted MCP server fo
 13. [What we built during the hackathon](#what-we-built-during-the-hackathon)
 14. [Tracks and mini challenges](#tracks-and-mini-challenges)
 15. [AWS services used](#aws-services-used)
-16. [License](#license)
+16. [Friction Log](./FRICTION_LOG.md)
+17. [License](#license)
 
 ---
 
@@ -646,6 +647,13 @@ The only pre-existing components are open source libraries (FastMCP, Uvicorn, bo
 
 - Amazon Bedrock (Claude 3 Sonnet) - scene analysis in server/analysis.py. Called via bedrock.invoke_model(). Falls back to rule-based verdicts when credentials are absent.
 - AWS Lambda / DynamoDB / ECS - planned production deployment targets (documented in deploy/).
+
+---
+
+## Friction Log
+
+Development friction encountered while building this project is documented in
+[FRICTION_LOG.md](./FRICTION_LOG.md).
 
 ---
 
